@@ -1,0 +1,9 @@
+[package]
+name = "md5_benchmark"
+version = "0.1.0"
+authors = ["w <os.popen@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+md_5 = { package="md-5", version="*" } # alias md-5 to prevent multiple rmeta candidates for `md5` found
+md5 = "*"
